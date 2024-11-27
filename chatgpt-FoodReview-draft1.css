@@ -79,6 +79,9 @@ footer {
   margin-left: 1.5px;
   
 }
+.burger{
+font-weight: bold;
+}
 
 .food-item:hover{
   cursor: pointer;
