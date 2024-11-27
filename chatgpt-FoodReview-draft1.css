@@ -79,3 +79,8 @@ footer {
   margin-left: 1.5px;
   
 }
+
+.pizza:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
