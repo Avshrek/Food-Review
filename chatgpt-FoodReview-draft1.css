@@ -99,3 +99,8 @@ footer {
   cursor: pointer;
 }
 
+.food-item:hover{
+  cursor: pointer;
+
+}
+
