@@ -94,3 +94,8 @@ footer {
   cursor: pointer;
 }
 
+.pasta:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}
+
