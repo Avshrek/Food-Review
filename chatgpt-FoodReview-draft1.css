@@ -97,6 +97,10 @@ footer {
   text-decoration:underline;
   cursor: pointer;
 }
+
 .food-item:hover{
   cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  opacity: 0.8;
+
 }
