@@ -50,7 +50,7 @@ main {
   font-size: 1.5em;
 }
 
-.food-item .restaurant {
+.food-item .burger .restaurant {
   font-weight: bold;
   color: #333;
 }
