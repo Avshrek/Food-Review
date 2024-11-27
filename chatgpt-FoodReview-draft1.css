@@ -86,7 +86,11 @@ footer {
 }
 
 .burger:hover{
-text-decoration: underline;
+  text-decoration:underline;
+  cursor: pointer;
+}
+.ice-cream:hover{
+  text-decoration:underline;
   cursor: pointer;
 }
 
