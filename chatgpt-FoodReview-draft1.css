@@ -99,4 +99,9 @@ footer {
 }
 .food-item:hover{
   cursor: pointer;
+background-color: #ff6347;
 }
+.food-item h2:hover{
+color: white;
+}
+
