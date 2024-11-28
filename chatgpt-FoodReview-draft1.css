@@ -48,11 +48,13 @@ main {
   margin-top: 0;
   color: #ff6347;
   font-size: 1.5em;
+  
 }
 
 .food-item .restaurant {
   font-weight: bold;
   color: #333;
+  
 }
 
 footer {
@@ -80,9 +82,9 @@ footer {
   
 }
 
-
 .food-item:hover{
   cursor: pointer;
-  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  opacity: 0.8;
 
 }
