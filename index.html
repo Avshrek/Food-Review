@@ -13,8 +13,19 @@
         <p>Your guide to the most delicious dishes and where to find them!</p>
     </header>
 
+    <button class="learn-more">
+        <span class="circle" aria-hidden="true">
+        <span class="icon arrow"></span>
+        </span>
+        <span class="button-text" onclick="location.href='http://127.0.0.1:5500/drafts/user-review.html?'">Create your own review!</span>
+      </button>
+      
+
     <main>
+        <div class="search-input">
         <input class="search-bar" type="text" placeholder="Search">
+        </div>
+
 
 
         <section class="food-list">
@@ -47,5 +58,28 @@
     <footer>
         <p>&copy; 2024 Food Explorer. All rights reserved.</p>
     </footer>
+
+    <script>
+        // JavaScript to handle search functionality
+        const searchBar = document.querySelector('.search-bar');
+        const foodItems = document.querySelectorAll('.food-item');
+    
+        searchBar.addEventListener('input', (event) => {
+            const searchText = event.target.value.toLowerCase();
+            
+            foodItems.forEach(item => {
+                const foodName = item.querySelector('h2').textContent.toLowerCase();
+                const restaurantName = item.querySelector('.restaurant').textContent.toLowerCase();
+    
+                // Check if the search text matches food name or restaurant
+                if (foodName.includes(searchText) || restaurantName.includes(searchText)) {
+                    item.style.display = ''; // Show the item
+                } else {
+                    item.style.display = 'none'; // Hide the item
+                }
+            });
+        });
+    </script>
+
 </body>
 </html>
